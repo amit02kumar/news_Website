@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:rgb(167, 167, 167);
+    height: 140px;
+    }
+header nav{
+    background-color:skyblue;
+    color: black;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: inline-block;
+}
+nav h1{
+    font-size: 70px;
+    font-family: 'Labrada', serif;
+
+}
+header nav ul li{
+     display: inline-flex;
+     color: white;
+    }
+    header nav ul{
+        background-color: black;
+        text-align: left;
+    }
+    
+ 
+header ul li{
+    list-style: none;
+    margin: 15px 25px;
+}
+nav ul li a:hover{
+font-size:large;
+}
+header ul li a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 5px;
+    height:500px;
+    width: 20vw;
+    position: fixed;
+    left: 30px;
+    
+    
+}
+.box h2{
+    text-align: center;
+    
+}
+.box h2 a{
+    text-decoration: none;
+    color: black;
+}
+.box h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.box1{
+    width: 70vw;
+    height: 1000px;
+}
+.box1 h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+} 
+.box1a{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 380px;
+}
+.box1a img{
+    width: 30vw;
+    float: right;
+    border-radius: 25px;
+}
+.box1b{
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 420px;
+}
+
+.box1b img{
+    width: 30vw;
+    float: right;
+    border-radius: 25px;
+}
+.box1c{
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 530px;
+}
+.box1c img{
+    width: 30vw;
+    float: right;
+    border-radius: 25px;
+}
+.box1d{
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 400px;
+}
+.box1d img{
+    width: 30vw;
+    float: right;
+    border-radius: 25px;
+}
+.box1e{
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 350px;
+}
+.box1e img{
+    width: 30vw;
+    float: right;
+    border-radius: 25px;
+}
+
+.box1a p a{
+    text-decoration: none;    
+    color: rgb(32, 111, 32);
+}
+.box1b p a{
+    text-decoration: none;    
+    color: rgba(15, 219, 15, 0.909);
+}
+.box1c p a{
+    text-decoration: none;    
+    color: blue;
+}
+.box1e p a{
+    text-decoration: none;    
+    color: rgba(15, 219, 15, 0.909);
+}
+
+
+
+

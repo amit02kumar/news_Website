@@ -1,0 +1,122 @@
+@media screen and (max-width: 1400px) {
+  .box1a {
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .box1a {
+    height: 450px;
+  }
+  .box1b {
+    height: 450px;
+  }
+  .box1c {
+    height: 600px;
+  }
+
+  .box1e {
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .box {
+    height: 530px;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .box {
+    display: none;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .box1 {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .box1 {
+    width: 90vw;
+  }
+  .box1 img {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .box1 {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  header nav ul {
+    background-color: black;
+  }
+  header nav ul li a {
+    color: white;
+  }
+  .box1a {
+    height: 500px;
+  }
+  .box1b {
+    height: 520px;
+  }
+  .box1c {
+    height: 690px;
+  }
+  .box1d {
+    height: 450px;
+  }
+  .box1e {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .box1 p {
+    display: none;
+  }
+  .box1 h1:hover {
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .box1a {
+    height: 25vh;
+  }
+  .box1b {
+    height: 35vh;
+  }
+  .box1c {
+    height: 28vh;
+  }
+  .box1d {
+    height: 25vh;
+  }
+  .box1d img {
+    width: 35vw;
+  }
+  .box1e {
+    height: 25vh;
+  }
+}
+@media screen and (max-width: 470px) {
+  header nav h1 {
+    font-size: 50px;
+  }
+  header {
+    height: 115px;
+  }
+  .box1 h1 {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .box1c h1 {
+    font-size: 25px;
+  }
+}
